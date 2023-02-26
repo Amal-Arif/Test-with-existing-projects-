@@ -1,0 +1,33 @@
+---
+title: "The Data Science Toolkit Project"
+author: "Amal Kallendherry"
+date: "2023-02-26"
+output: pdf_document
+---
+
+##Rstudio
+###Loading Packages in RStudio
+
+```{r}
+library(lubridate)
+```
+
+###Understanding the Package Functions via Package Documentation in Help Tab
+
+```{r}
+?`lubridate-package`
+```
+
+###Using the Package Functions 
+
+```{r}
+dmy("27 Feb 2023")
+```
+
+##GitHub
+###Staging, Commiting, and Pushing to GitHub Repo
+
+```{r}
+print("This is for submiting for The Data Science Tool Project")
+```
+
